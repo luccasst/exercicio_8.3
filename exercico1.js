@@ -4,6 +4,7 @@ const arrays = [
     [4, 5, 6],
   ];
   
+  
   function flatten() {
     const arrayJuntas = arrays.reduce( (acc, curr) => acc.concat(curr) );
     return arrayJuntas;
